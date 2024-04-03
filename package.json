@@ -4,17 +4,18 @@
   "description": "a sophisticated, browser-based text editing application that provides developers with the convenience of creating and managing notes and code snippets, even without an internet connection.",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && run dev\"",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server nodemon server.js --ignore client",
+    "build": "cd client && npm run build",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "client": "cd client && npm start"
   },
   "keywords": [],
   "author": "Domonic Jennings <jenningsdomonic@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "core-js": "^3.36.1",
     "express": "^4.17.1",
     "if-env": "^1.0.4"
   },
