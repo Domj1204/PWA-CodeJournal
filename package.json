@@ -15,7 +15,6 @@
   "author": "Domonic Jennings <jenningsdomonic@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "core-js": "^3.36.1",
     "express": "^4.17.1",
     "if-env": "^1.0.4"
   },
