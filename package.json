@@ -1,7 +1,7 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "",
+  "description": "a sophisticated, browser-based text editing application that provides developers with the convenience of creating and managing notes and code snippets, even without an internet connection.",
   "main": "server.js",
   "scripts": {
     "start:dev": "",
@@ -12,7 +12,7 @@
     "client": ""
   },
   "keywords": [],
-  "author": "",
+  "author": "Domonic Jennings <jenningsdomonic@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
