@@ -13,7 +13,7 @@ a sophisticated, browser-based text editing application that provides developers
 - [Questions](#questions)
   
 ## Installation 
-There is no installation necessary for this application as it is deployed using [Render](https://docs.render.com/). You can access and use the application [here](https://pwa-text-editor-xj19.onrender.com/) or at the following link: https://pwa-text-editor-xj19.onrender.com/
+There is no installation necessary for this application as it is deployed using [Render](https://docs.render.com/). You can access and use the application [here](https://pwa-codejournal.onrender.com/) or at the following link: https://pwa-codejournal.onrender.com/
 
 If you are interested in running the application locally, please use the following steps:
 1. Clone this repository to your local machine. (For reference, visit the [Cloning a Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) GitHub Docs article.)
